@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    height: 100vh;
+    text-align:center; 
+    font-family:verdana;
+}
+
+#spSeason {
+    background-color: #a8ee9ae0;
+    
+}
+
+#suSeason {
+    background-color: #ffee529d;
+}
+
+#raSeason {
+    background-color: #000a0e9a;
+}
+
+#wiSeason {
+    background-color: #9aa098;
+}
+
+.nav-scrolled {
+    background-color: #555;
+    transition: background-color 0.3s;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
